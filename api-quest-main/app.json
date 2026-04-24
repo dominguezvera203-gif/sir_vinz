@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "API Quest",
+    "slug": "api-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app_logo.png",
+        "backgroundColor": "#E6F4FE"
+      },
+      "package": "com.akeroshii.apiquest"
+    },
+    "web": {
+      "favicon": "./assets/app_logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3cab19a5-5e71-4c89-857e-bdf79e9fe34c"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
